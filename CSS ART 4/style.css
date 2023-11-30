@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B6D463;
+}
+.square{
+    height: 300px;
+    width: 300px;
+    background-color: #2E432A;
+    margin: 100px auto;
+    position: relative;
+}
+.top-parallelogram, .bottom-parallelogram{
+    height: 150.5px;
+    width: 79px;
+    background-color: #B6D463;
+    position: absolute;
+}
+.top-parallelogram{
+    top: 0;
+    left: 0;
+    transform: skewX(46deg);
+}
+.bottom-parallelogram{
+    bottom: 0;
+    left: 0;
+    transform: skewX(-46deg);
+}
